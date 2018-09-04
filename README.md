@@ -66,7 +66,21 @@ sudo apt-get install python-pyaudio python3-pyaudio
 
 sudo apt-get install flac
 
+17. install SWIG:
 
+sudo apt-get install swig
+
+18. install PocketSphinx:
+
+pip3 install --upgrade pocketsphinx
+
+19. install Libpulse, or Sphinx won't compile:
+
+sudo apt-get install libpulse-dev
+
+20. install PocketSphonx for real:
+
+pip3 install --upgrade pocketsphinx
 
 
 
