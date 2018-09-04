@@ -54,5 +54,19 @@ sudo apt-get install libatlas-base-dev
 
 python3 /home/pi/aiyprojects-raspbian/checkpoints/check_audio.py
 
+14. install SpeechRecognition package, which supports several engines, both offline and online: https://pypi.org/project/SpeechRecognition/
+
+pip3 install SpeechRecognition
+
+15. install PyAudio: https://people.csail.mit.edu/hubert/pyaudio/
+
+sudo apt-get install python-pyaudio python3-pyaudio
+
+16. install FLAC conversion utility
+
+sudo apt-get install flac
+
+
+
 
 
