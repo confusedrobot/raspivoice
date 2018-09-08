@@ -1,8 +1,14 @@
-
 import time
 import speech_recognition as sr
 
+import os
+from pocketsphinx import pocketsphinx
+from sphinxbase import sphinxbase
+import pyaudio
+
+
 start_time = time.time()
+print("Step 1: recognizing free-form speech.")
 
 # obtain audio from the microphone
 r = sr.Recognizer()
@@ -20,3 +26,6 @@ except sr.UnknownValueError:
 except sr.RequestError as e:
     print("Sphinx error; {0}".format(e))
 
+
+start_time = time.time()
+print("Step 2: recognizing pre-defined phrases.")
