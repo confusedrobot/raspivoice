@@ -78,7 +78,7 @@ pip3 install --upgrade pocketsphinx
 
 sudo apt-get install libpulse-dev
 
-20. install PocketSphonx for real:
+20. install PocketSphиnx for real:
 
 pip3 install --upgrade pocketsphinx
 
